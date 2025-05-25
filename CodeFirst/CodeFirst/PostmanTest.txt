@@ -1,0 +1,22 @@
+﻿test for Get
+http://localhost:5020/Pharmacy/1
+
+
+test for Post
+http://localhost:5020/Pharmacy
+
+RAW BODY
+{
+    "Patient":{
+        "IdPatient":1,
+        "FirstName":"Antek2",
+        "LastName":"Kostuj2",
+        "BirthDate":"2024-01-01"
+    },
+    "Medicaments":[ {
+        "IdMedicament":1,"Dose":3,"Details":"some Desc"
+    }],
+    "IdDoctor":1,
+    "Date":"2024-01-01",
+    "DueDate":"2026-01-01"
+}
